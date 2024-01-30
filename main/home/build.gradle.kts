@@ -10,6 +10,7 @@ plugins {
 apply<com.ivy.buildsrc.IvyComposePlugin>()
 
 dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     Hilt()
     implementation(project(":common:main"))
     implementation(project(":common:android-test"))
